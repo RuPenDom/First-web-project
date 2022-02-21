@@ -1,0 +1,212 @@
+.flex-container{
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+
+}
+
+.main{
+    display: flex;
+    flex: 1;
+}
+
+.flex-item{
+    text-align: center;
+    background-image: url("bg-main.png");
+
+}
+
+.item-2 p{
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.item-3 ol{
+    list-style-type: none;
+    margin-right: 2%;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.item-6 article{
+    margin: 0px 300px 0px 300px;
+    padding: 1px 170px 1px 170px;
+}
+
+.item-7 {
+        font-size: 14px;
+}
+
+body {
+  padding: 0 20px;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: "Arial", sans-serif;
+  color: #222222;
+  /*background: #ffffff url("bg.png") no-repeat top center;*/
+}
+
+h1 {
+  font-size: 45px;
+  color: #ffc90e;
+  font-weight: bold;
+  line-height: normal;
+  font-family: "Verdana", sans-serif;
+  margin-left: 16em;  
+}
+
+.top{
+    background-image: url("bg.png");
+    background-color: #122faa;
+}
+
+h2{
+    font-size: 20px;
+    color: #122faa;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+nav {
+  color: #888888;
+  font-family: "Verdana", sans-serif;
+  font-weight: bold;
+}
+
+aside {
+  margin: 20px 0;  
+}
+
+.highlighted-text {
+    color: #120faa;
+}
+
+ul.education{
+    margin-left: 30%;
+    margin-bottom: 0px;
+    padding-left: 150px;
+    padding-bottom: 10px;
+}
+
+.education dl{
+
+}
+
+.education dd{
+    margin: 0px;
+    width: 38%;
+    text-align: center;
+    background-color: #e0dbd7;
+    white-space: pre;
+} 
+
+.education dt{
+    background-color: #c9c0bb;
+    width: 38%;
+    text-align: center;
+}
+
+.education li{
+    list-style-type: none;
+}
+
+.education_date{
+    margin: 0px;
+    margin-bottom: 10px;
+    width: 38%;
+    text-align: center;
+    background-color: #c9c0bb;
+}
+
+ul.career{
+    margin-left: 30%;
+    margin-bottom: 0px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+
+.career dd{
+    margin: 0px;
+    width: 38%;
+    text-align: center;
+    background-color: #e0dbd7;
+} 
+
+.career dt{
+    background-color: #c9c0bb;
+    width: 38%;
+    text-align: center;
+}
+
+.career li{
+    list-style-type: none;
+}
+
+.career_date{
+    margin: 0px;
+    margin-bottom: 10px;
+    width: 38%;
+    text-align: center;
+    background-color: #c9c0bb;
+}
+
+.contacts{
+    margin-left: 25em;
+    margin-top: 2em;
+    padding-left: 120px;
+    font-size: 25px;
+}
+
+ul.nav{
+    margin-left: 300px;
+    padding-left: 0px;
+    list-style: none;
+}
+.nav li{
+    display: inline; 
+}
+
+ul.nav a{
+    display: inline-block;
+    width: 20em;
+    padding:10px;    
+    text-decoration: none;
+    color: #ffc90e;
+    text-align: center;
+    border: 1px solid #ffc90e;    
+}
+
+ul.nav a:hover{
+    background-color: #ffc90e;
+    color: #122faa;
+    border: 1px solid black;
+}
+
+.avatar{
+    width:227px;
+    height: 283px;
+    float: left;
+    margin-left: 15em;
+    border: 3px solid #ffc90e;
+}
+
+.series-table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  overflow: auto;
+}
+td{
+  padding: 10px;
+}
+caption{
+  font-style: italic;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .top{
+    background-color: white;
+}
+}
