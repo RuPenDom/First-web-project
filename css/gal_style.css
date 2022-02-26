@@ -18,8 +18,9 @@ ul.nav a{
     width: 20em;
     padding:10px;    
     text-decoration: none;
-    color: #ffc90e;
-    text-align: center;    
+    color: black;
+    text-align: center;
+    border: 1px solid black;    
 }
 
 ul.nav a:hover{
@@ -66,4 +67,9 @@ ul.nav a:hover{
   bottom: 0;
   background: #fff;
   cursor: zoom-out;
+}
+
+.comments{
+  font-size: 48px;
+  text-align: center;
 }

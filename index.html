@@ -1,86 +1,162 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="utf-8">
-	<meta name="keywords" content="Сайт, резюме, блог, Ильи, Липинского">
-	<meta name="description" content="Добро пожаловать на личный сайт Ильи Липинского">
-	<title>SV</title>
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Сайт, резюме, блог, Ильи, Липинского">
+    <meta name="description" content="Добро пожаловать на личный сайт Ильи Липинского">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intro.js@4.3.0/introjs.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intro.js@4.3.0/introjs-rtl.css">
+    <script src="script_head.js"></script>
 </head>
 <body>
-	<div class="flex-container">
-		<header class="item-1 top">
-			<nav>
-				<ul class="nav">
-            	<li><a href="#">Главная</a></li>
-            	<li><a href="some_page.html">Всякая всячина</a></li>
-            	<li><a href="gallery.html">Галерея</a></li>
-        		</ul>
-			</nav>
-		
-			<img class="avatar" src="img/u241853.jpeg">
-		
-			<h1>Илья Липинский</h1>
-		
-			<ul class="contacts">
-				<li>Санкт-Петербург, Россия</li>
-				<li>+7-123-456-78-91</li>
-				<li>lffkk@bk.ru</li>
-				<li><a href="https://t.me/LipaFilimon">Телеграм</a></li>
-			</ul>
-		</header>
-		<main>
-			<section class="flex-item item-2">
-				<h2>Немного обо мне</h2>
-				<p>Я студент 3 курса <del>Политеха</del> Университета ИТМО, группы <b>М33091</b> и это мой личный сайт-резюме.</p>
-			</section>
-			<section class="flex-item item-3">
-			<h2>Навыки</h2>
-				<ol>
-					<li>C++</li>
-					<li>Bash</li>
-					<li>MsSQL</li>
-					<li>Английский язык (B1+)</li>
-				</ol>
-			</section>
-			<section class="flex-item item-4">
-				<h2>Образование</h2>
-				<ul class="education">
-					<dl>
-					<li><dt>Национальный исследовательский университет ИТМО</dt></li>				
-					<dd>"Информационные системы и технологии"</dd>
-					<div class="education_date">2018 - н.в.</div>
-					<li><dt>Санкт-Петербургский политехнический университет Петра Великого</dt></li>			
-					<dd>"Математика и компьютерные науки"</dd>
-					<div class="education_date">2016 - 2017</div>
-					<li><dt>Гиманазия 524</dt></li>
-					<dd>"Информатика"</dd>
-					<div class="education_date"> 2010 - 2016</div>
-				</dl>
-				</ul>
-			</section>
-			<section class="flex-item item-5">
-				<h2>Карьера</h2>
-				<ul class="career">
-					<dl>
-					<li><dt>ООО"Балта"</dt></li>				
-					<dd>Младший тестировщик программного обеспечения</dd>
-					<div class="career_date">2018</div>
-					</dl>
-				</ul>
-			</section>
-			<section class="flex-item item-6">
-				<h2>Новости</h2>
-				<article>
-					<p><i>МОСКВА, 27 янв — РИА Новости.</i> Минцифры считает, что запрет на обращение криптовалют серьезно снизит темпы развития российской IT-отрасли и сделает ее неконкурентоспособной, сообщила пресс-служба ведомства.</p>
+    <div class="content">
+        <div class="header">
+            <header>
+                <nav>
+                <ul class="nav">
+                <li><a href="#">Главная</a></li>
+                <li><a href="some_page.html">Всякая всячина</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                </ul>
+            </nav>
+            </header>
+        </div>
+        <div class="main-content">
+            <main>
+                <div class="start-tour">
+                    <button class="tour btn-white">
+                        Тур по сайту                        
+                    </button>
+                </div>
+                <div class="home">
+                    <h1>
+                        Илья Липинский
+                    </h1>
+                    <img class="avatar" src="img/u241853.jpeg">
+                </div>
+                <a id="about"></a>
+                <article class="about" id="article-about">
+                    <h2>
+                        Немного обо мне
+                    </h2>
+                    <section class="description">
+                        <p>
+                            Я студент 3 курса <del>Политеха</del> Университета ИТМО, группы <b>М33091</b> и это мой личный сайт-резюме.
+                        </p>
+                    </section>
 
-					<p>На прошлой неделе ЦБ опубликовал доклад, где предложил запретить майнинг цифровых валют на территории страны, использование инфраструктуры финансового рынка для любых операций с ними, а также вложение финансовыми организациями средств в криптовалюты и связанные с ними инструменты.</p>
-				</article>
-			</section>
-			<section class="flex-item item-8">
-				<h2>Таблица</h2>
-				<table class="series-table">
-                <caption>3 ряда чисел</caption>
+                    <section class="qualities">
+                        <h3>
+                            Навыки:
+                        </h3>
+                        <ol>
+                    <li>C++</li>
+                    <li>Bash</li>
+                    <li>MsSQL</li>
+                    <li>Английский язык (B1+)</li>
+                </ol>
+                    </section>
+
+                    <section>
+                        <h3>
+                            Образование
+                        </h3>
+                        <ul class="education">
+                    <dl>
+                    <li><dt>Национальный исследовательский университет ИТМО</dt></li>               
+                    <dd>"Информационные системы и технологии"</dd>
+                    <div class="education_date">2018 - н.в.</div>
+                    <li><dt>Санкт-Петербургский политехнический университет Петра Великого</dt></li>            
+                    <dd>"Математика и компьютерные науки"</dd>
+                    <div class="education_date">2016 - 2017</div>
+                    <li><dt>Гиманазия 524</dt></li>
+                    <dd>"Информатика"</dd>
+                    <div class="education_date"> 2010 - 2016</div>
+                </dl>
+                </ul>
+                    </section>
+
+                    <section class="history">
+                        <h3>
+                            Карьера
+                        </h3>
+                        <ul class="career">
+                    <dl>
+                    <li><dt>ООО"Балта"</dt></li>                
+                    <dd>Младший тестировщик программного обеспечения</dd>
+                    <div class="career_date">2018</div>
+                    </dl>
+                </ul>
+                    </section>
+                    
+                    
+                    <section>
+                        <h3>
+                            Мои любимая цитата
+                        </h3>
+                        <blockquote>
+                <p>Футбол без симпатии смотреть бессмысленно и глупо, потому что симпатия - <ins>это двигатель интереса</ins>.</p>
+                <cite>Василий Уткин</cite>
+            </blockquote>
+                    </section>
+                    <section>
+                        <h3>
+                            Мой любимый блок кода
+                        </h3>
+<pre>
+<code>//Фрагмент алгоритма Флойда-Уоршелла
+if ((Distance[i][k] && Distance[k][j] && i != j) && ((Distance[i][k] + Distance[k][j] < Distance[i][j] || Distance[i][j] == 0)))
+{
+    Distance[i][j] = Distance[i][k] + Distance[k][j];
+    Path[i][j] = k + 1;
+}   </code>
+</pre>
+                    </section>
+                
+                <a id="contacts"></a>
+                <article class="contacts" id="article-contacts">
+                    <h2>
+                        Контакты:
+                    </h2>
+                    <section>
+                        <h3>
+                            Телефон:
+                        </h3>
+                        <a href="tel:+7-123-456-7899">+7-123-456-7899</a>
+                    </section>
+                    <section>
+                        <h3>
+                            Почта:
+                        </h3>
+                        <a href = "mailto: lffkk@bk.ru">lffkk@bk.ru</a>
+                    </section>
+                    <section>
+                        <h3>
+                            Мессенджер:
+                        </h3>
+                        <ul>
+                            <li>
+                                <a href="https://t.me/LF1403" >Телеграм</a>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+            </main>
+        </div>
+        
+        </article>
+        <div class="series-name"><h3>Таблица</h3></div>
+        <div class="series">
+            <table class="series-table">
+                <caption>Таблица</caption>
                 <tr>
                     <td>0</td>
                     <td>1</td>
@@ -136,14 +212,23 @@
                     <td>15</td>
                 </tr>
             </table>
-			</section>
-		</main>	
-		<footer class="flex-item item-7">
-			<img src="img/footer-pic.png">
-			<p>
-				Если вы видите эту литеру, то вы достигли дна.
-			</p>				
-		</footer>	
-	</div>	
+        </div>
+        <div class="footer">
+            <footer>
+                <div class="copyrights">
+                    
+            <p>
+                Если вы видите эту надпись, то вы достигли дна.
+            </p>
+                </div>
+                <div class="Timer">
+                    <span id="Time"></span>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="script_menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/intro.js@4.3.0/intro.min.js"></script>
+    <script src="tour.js"></script>
 </body>
 </html>

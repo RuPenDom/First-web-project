@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: space-between;
+    background-color: #151618;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+}
+.preloader{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.hidden{
+    display: none;
+}
+.preloader_button {
+    cursor: pointer;
+    background-color: #013880;
+    border: none; 
+    color: rgb(232, 232, 247); 
+    padding: 12px 16px; 
+    font-size: 16px;
+    height: fit-content;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile-name{
+    margin: 10px 30px;
+
+}
+.email{
+    margin: 10px;
+}
+.post-id{
+    background-color: #151618;
+    color: azure;
+}
+.comments{
+    border: 5px solid #c901b8;
+    width: fit-content;
+    height: fit-content;
+}
+.comment{
+    background-color: #6c6e77;
+    margin-bottom: 50px; 
+}
+.end-comment{
+    margin-bottom: 0;
+}
+.person-info{
+    background-color: rgb(19, 102, 122);
+    border: 2px solid black;
+}
+a{
+    color: azure;
+}
+a:visited{
+    text-decoration: underline;
+}
+.something-went-wrong{
+    background-color: red;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    width: fit-content;
+    font-size: 20px;
+    padding: 20px;
+}
+.error{
+    font-weight: 900;
+    font-size: 30px;
+}
